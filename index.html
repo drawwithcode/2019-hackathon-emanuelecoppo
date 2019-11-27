@@ -3,7 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
+    <title>Hackathon</title>
+    <style>
+      body, html {
+        padding: 0;
+        margin: 0;
+        background-color: #000;
+        font-family: sans-serif;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      canvas {
+        margin-bottom: -4px;
+      }
+      button {
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        background-color: #0000ff;
+        color: #ffffff;
+        border: solid .25vw #fff;
+        border-radius: .8vw;
+        outline: none;
+        cursor: pointer;
+        font-size: 3vw;
+        text-transform: uppercase;
+        padding: 1vw 2.5vw;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #0000ff;
+      }
+    </style>
     <script src="p5.min.js"></script>
     <script src="addons/p5.sound.min.js"></script>
     <script src="sketch.js"></script>
